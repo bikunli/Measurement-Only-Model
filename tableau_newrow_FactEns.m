@@ -1,6 +1,6 @@
 function [newrow_list] = tableau_newrow_FactEns(ensemble,num)
 % generate a new row for tableau
-% The new row is taken from a "Factorizable ensemble",
+% The new row is taken from a "Factorizable ensemble", PHYSICAL REVIEW X 11, 011030 (2021)
 % with parameters (r,q_x,q_y,q_z)
 
 L = ensemble.L;

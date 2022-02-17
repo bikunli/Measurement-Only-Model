@@ -10,7 +10,9 @@ CompRegionIndex = setdiff(1:L,SubRegionIndex); % The complementary Region
 SubLc = numel(CompRegionIndex); % The length of the complementary region
 perm_ind = [CompRegionIndex,SubRegionIndex]; % new arrangement of sites
 Tableau_perm = Tableau(:,[perm_ind,L+perm_ind]);
-h = heightfunc(Tableau_perm,'pure');
+
+% extract the Renyi entropy from the height function at x = SubLc:
+h = heightfunc(Tableau_perm,'pure'); 
 switch SubLc
     case 0
         Entropy = 0 ;
