@@ -1,4 +1,4 @@
-These codes recover some of the result in paper PHYSICAL REVIEW X 11, 011030 (2021)
+These codes recover some of the results in paper PHYSICAL REVIEW X 11, 011030 (2021)
 
 =================
 
