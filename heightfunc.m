@@ -4,6 +4,7 @@ function [h] = heightfunc(Tableau,option)
 % h(1) = h(x=1)
 % This function uses the method introduced  in paper: New J. Phys. 7, 170 (2005)
 % Version 4.0, Date: 06/09/2021
+
 [n,n2] = size(Tableau);
 if n2 ~= 2*n
     error('The size of Tableau_photon is improper!');
